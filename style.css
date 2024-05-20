@@ -8,8 +8,6 @@ body {
     background-size: cover; 
     background-repeat: no-repeat; 
     padding: 25px;
-    justify-content: center;
-    
 }
 
 /* Logo & Navbar */
@@ -97,18 +95,15 @@ header {
     border-radius: 20px;
     box-shadow: 5px 5px 10px #ff4081;
 }
-
-#flowers button{
-    justify-self: center;
-    padding: 10px 20px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: bold;
-    cursor: pointer;
-    background-color: #00eeff;
-    color: rgb(56, 54, 54);
+button {
+    background-color: pink; 
+    color: #ffffff; 
     border: none;
-    border-radius: 5px;
-    margin-top: 20px;
+    padding: 10px 20px;
+    margin: 10px 0; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: background-color 0.3s; 
 }
 
 button:hover {
@@ -118,3 +113,48 @@ button:hover {
 /* Specials */
 
 /* Contact Us */
+
+#contact {
+    background-color: #ffffff; /* White background for the contact section */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for a nice effect */
+    text-align: center; /* Center text inside the div */
+    max-width: 500px; /* Limit the width of the content */
+    width: 100%; /* Make it responsive */
+}
+
+#contact h2, #contact h4 {
+    margin: 10px 0;
+}
+
+#contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center elements in the form */
+}
+
+#contact input[type="name"],
+#contact input[type="email"],
+#contact textarea {
+    width: 100%; /* Full width of the form */
+    max-width: 400px; /* Limit the width */
+    margin: 10px 0; /* Spacing between inputs */
+    padding: 10px; /* Add padding inside inputs */
+    border: 2px solid pink; /* Pink border */
+    border-radius: 5px; /* Rounded corners */
+    box-sizing: border-box; /* Ensure padding and border are included in the element's total width and height */
+}
+
+#contact textarea {
+    height: 100px; /* Set height for the textarea */
+}
+
+#contact input[type="checkbox"] {
+    margin: 10px 0; /* Spacing for the checkbox */
+}
+
+#contact label {
+    margin-left: 5px; /* Space between checkbox and label */
+}
+
