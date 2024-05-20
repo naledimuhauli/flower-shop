@@ -87,11 +87,13 @@ header {
     text-shadow: 2px 2px 4px #ff4081;
     align-items: center;
     justify-content: center;
+    width: 100%;
 }
 
 .homepage img{
-    width: 200px;
-    height: 200px;
+    width: 20rem;
+    height: 20rem;
+    border-radius: 25em;
 }
 
 .homepage img::after {
@@ -103,6 +105,10 @@ header {
     height: 100%;
     background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 100%);
     mix-blend-mode: overlay;
+}
+
+.home_text{
+    padding: 15px;
 }
 
 
