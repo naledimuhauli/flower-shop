@@ -13,9 +13,10 @@ body{
     align-items: center;
     width: 100%;
 }
+
 /*Share style attributes*/
 .container, #flowers, #services, #about, #contact {
-    background-color: #ffffff; 
+    background-color: #f1cade; 
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px #ff4081;
@@ -63,7 +64,6 @@ header {
     color: #333;
     font-size: 18px;
     padding: 8px 12px;
-    transition: background 0.3s, color 0.3s;
 }
 
 .nav-bar ul li a:hover,
@@ -73,14 +73,12 @@ header {
     border-radius: 4px;
 }
 
-
-
 /* Home */
 .homepage{
     display: flex;
     font-family: cursive;
     font-style: italic;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-shadow: 2px 2px 4px #ff4081;
     align-items: center;
     justify-content: center;
 }
